@@ -1,0 +1,12 @@
+{
+  "name": "pkmn_creator_checkpoint1_github_ready",
+  "version": "1.0.0",
+  "description": "Pokémon Creator Checkpoint 1 GitHub Ready",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
