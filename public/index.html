@@ -229,9 +229,14 @@
       if (natureSelect.value) text += `Nature: ${natureSelect.value}
 `;
       if (levelSelect.value) text += `Level: ${levelSelect.value}
-`;
+  `;    
+      if (shinyCheck.checked) text += `Shiny: Yes\n`;
+
       if (itemSelect.value) text += `Item: ${itemSelect.value}`;
       resultBox.value = text.trim();
+     
+      
+
     }
 
     function copyResult() {
